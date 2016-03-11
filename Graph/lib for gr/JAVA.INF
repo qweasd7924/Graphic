@@ -1,0 +1,86 @@
+******************************************************************
+**                                                              **
+**              IBM-PC Installation of DISLIN for Java          **
+**                                                              **
+**  Contents:  1.)  Introduction                                **
+**             2.)  Installation of DISLIN for Java             **
+**             3.)  Getting a DISLIN License                    **
+**                                                              **
+**  Date   :   15.01.2016                                       **
+**  Version:   10.6  /  Windows, 64-bit                         **
+**  Author :   Helmut Michels, MPI fuer Sonnensystemforschung,  **
+**             Justus-von-Liebig-Weg 3, 37077 Goettingen,       **
+**             Germany                                          **
+**             E-mail: michels@mps.mpg.de                       **
+******************************************************************
+
+1.)  Introduction
+
+     DISLIN is a  high-level and  easy to use graphics library for
+     displaying data as curves, bar graphs, pie charts, 3-D colour
+     plots, surfaces, contours and maps. The software is available
+     for several C, Fortran 77 and Fortran 90/95 compilers.
+
+     This file describes the installation of the  DISLIN interface
+     for the programming language Java and Windows 64-bit systems.
+
+
+2.)  Installation of DISLIN for Java
+
+     The Windows version of DISLIN for Java is distributed as a .zip
+     file created with the file packaging utility ZIP (version 1.9).
+     The .zip file has the file name DL_nn_JV.ZIP where  nn is the
+     current version number of DISLIN.
+
+     To install DISLIN for Java, make the following steps:
+
+  a) Create a temporary directory and copy the files dl_10_jv.zip
+     and unzip.exe to it:
+
+     for example:   md  c:\temp
+                    cd  c:\temp
+                    copy e:\dislin\windows\unzip.exe    *.*
+                    copy e:\dislin\windows\dl_10_jv.zip *.*
+
+  b) Extract the zipped files with the command:
+
+                    unzip -o dl_10_jv.zip 
+
+  c) Run the SETUP program with the command
+
+                    setup
+
+     -  Choose OK
+
+     -  Give the Installation Directory where DISLIN for Java
+        should be installed. The default directory is C:\DISLIN.
+
+
+  d) Reconfigure the System
+
+     Set the DISLIN environment variable to c:\dislin, the CLASSPATH
+     environment variable to c:\dislin\java\dislin.jar;. and include
+     c:\dislin\win in your path. If you have installed DISLIN in a
+     different directory, you have to use that directory for the 
+     environment variables above.
+
+     The environment variables can be set or modified with the Control
+     Panel 
+    
+     (see Control Panel -> System -> Advanced -> Environment
+      Variables).
+
+  e) Now you can run the DISLIN examples in the subdirectory java
+     of the DISLIN installation directory:
+
+     for example:  javac curve.java
+                   java  curve
+
+
+3.)  Getting a DISLIN License
+
+     DISLIN is free for non-commercial use. Licenses for selling programs
+     linked with DISLIN or for using DISLIN in an environment related to
+     business are available from the site http://www.dislin.de. 
+
+
