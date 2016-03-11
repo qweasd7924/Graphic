@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="графика">
+    <CLASSES>
+      <root url="file://C:/for java/графика" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://C:/for java/графика" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://C:/for java/графика" />
+    </SOURCES>
+    <jarDirectory url="file://C:/for java/графика" recursive="false" />
+  </library>
+</component>
